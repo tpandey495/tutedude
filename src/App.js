@@ -4,6 +4,7 @@ import Header from './component/Header';
 import Ui from './component/Ui';
 import Card from './component/Card';
 import Body from './component/Body';
+import Footer from './component/Footer';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Ui />
       <Card />
       <Body />
+      <Footer />
     </div>
   );
 }

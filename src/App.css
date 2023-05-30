@@ -5,7 +5,7 @@
   font-family:poppins;
   font-weight:500;
   font-size:18px;
-  color: rgba(128, 0, 128, 0.25);
+  color:#800080;
 }
 
 /* Nav Style */
@@ -39,4 +39,102 @@
   margin-top:30px;
   margin-left:19%;
   color:black;
+}
+
+/* Referral */
+.Referral{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+
+
+
+/* Card */
+.card{
+  width:40%;
+  margin-left:19%;
+  margin-top:25px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Referral {
+    flex-direction:column;
+  }
+  .card{
+    width:60%;
+  }
+  .referral-code{
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+.card button{
+  margin-top:35px;
+  margin-bottom:37px; 
+  width:180px;
+  height:40px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:20px;
+  color:white;
+  background-color: #800080;
+  border:none;
+}
+
+
+.desc{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.desc ul{
+  margin-top:20px;
+}
+
+.desc ul li{
+  list-style-type:none;
+}
+
+.desc ul .txt{
+  color:black;
+}
+
+/* Referral Code */
+
+.referral-code {
+  margin-left: 7%;
+  line-height: 67px;
+
+}
+
+.referral-code .referral-desc{
+ font-weight:600;
+ size:24px;
+}
+
+.referral-code .code{
+  border:1px solid #800080 ; 
+  letter-spacing: 14px;
+  height:60px;
+  width:200px;
+  border-radius:5px;
+  text-align:center;
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .referral-code {
+    margin-left:19%;
+  }
 }
